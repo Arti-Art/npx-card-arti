@@ -1,0 +1,14 @@
+{
+  "name": "npx-card-arti",
+  "version": "1.0.0",
+  "description": "This is an exercice on Node.js for BeCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card"
+  ],
+  "author": "arti-art",
+  "license": "ISC"
+}
