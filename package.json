@@ -1,14 +1,30 @@
 {
   "name": "npx-card-arti",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is an exercice on Node.js for BeCode",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": {
+    "artiart": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "card"
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
   ],
-  "author": "arti-art",
-  "license": "ISC"
+  "author": "arti-art <art.kouznetsov@gmail.be> (https://github.com/Arti-Art)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arti-Art/npx-card-arti"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0"
+  }
 }
